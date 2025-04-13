@@ -1,5 +1,5 @@
 import React from 'react'
-import {IconAnchor, IconAsset, IconBell, IconSettings} from '@tabler/icons-react'
+import {IconAnchor, IconBell, IconSettings} from '@tabler/icons-react'
 import { Avatar, Indicator } from '@mantine/core'
 import NavLinks from './NavLinks'
 const Header = () => {
