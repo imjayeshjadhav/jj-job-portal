@@ -1,12 +1,11 @@
 import { IconAnchor, IconBrandFacebook, IconBrandInstagram, IconBrandX } from '@tabler/icons-react'
-import React from 'react'
 import { footerLinks } from '../Data/Data'
 
 const Footer = () => {
   return (
-    <div className='mt-20 pb-5 flex gap-5 justify-around'>
+    <div className='pt-20 pb-5 flex gap-5 justify-around bg-mine-shaft-950 font-["poppins"]'>
         <div className='w-1/4 flex flex-col gap-4'>
-            <div className='flex gap-1 items-center text-bright-sun-400'>
+            <div className='flex gap-1 items-center text-bright-sun-400  '>
                 <IconAnchor className='h-6 w-6' stroke={2.5} />
                 <div className='text-xl font-semibold'>JJ-Jobs</div>
             </div>
