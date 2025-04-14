@@ -93,7 +93,7 @@ export function MultiInput(props:any) {
         </PillsInput>
       </Combobox.DropdownTarget>
 
-      <Combobox.Dropdown>
+      <Combobox.Dropdown  >
         <Combobox.Search
           value={search}
           onChange={(event) => setSearch(event.currentTarget.value)}
