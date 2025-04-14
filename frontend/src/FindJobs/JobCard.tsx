@@ -5,7 +5,7 @@ import React from 'react'
 const JobCard = (props:any) => {
   return (
     <div className='bg-mine-shaft-900 w-[22rem] flex flex-col gap-6 rounded-xl p-5 hover:shadow-[0_0_5px_1px_yellow] !shadow-bright-sun-400 mb-5'>
-      <div className='flex justify-between'>
+      <div className='flex justify-between '>
         <div className='flex gap-2 items-center'>
           <div className='p-2 bg-mine-shaft-800 rounded-md'>
             <img src={`/Icons/${props.company}.png`} className='h-7 ' alt="" />
@@ -15,7 +15,7 @@ const JobCard = (props:any) => {
             <div className='text-xs text-mine-shaft-300 '>{props.company}&#x2022; {props.applicants}</div>
           </div>
         </div>
-        <IconBookmark className='text-mine-shaft-300 cursor-pointer'/>
+        <IconBookmark className='text-mine-shaft-300 cursor-pointer' stroke={1.5}/>
       </div>
       <div className='flex gap-2 [&>div]:py-1 [&>div]:px-2 [&>div]:bg-mine-shaft-800 [&>div]:text-bright-sun-400 [&>div]:rounded-lg [&>div]:text-xs'>
         <div>{props.experience}</div>
