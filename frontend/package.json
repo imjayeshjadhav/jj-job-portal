@@ -27,6 +27,7 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.1.1",
     "@types/react-dom": "^19.1.2",
+    "dompurify": "^3.2.5",
     "embla-carousel-react": "^8.6.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

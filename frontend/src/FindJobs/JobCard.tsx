@@ -1,10 +1,11 @@
 import { Divider, Text } from '@mantine/core'
 import { IconBookmark, IconClockHour3 } from '@tabler/icons-react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const JobCard = (props:any) => {
   return (
-    <div className='bg-mine-shaft-900 w-[22rem] flex flex-col gap-6 rounded-xl p-5 hover:shadow-[0_0_5px_1px_yellow] !shadow-bright-sun-400 mb-5'>
+    <Link to="/jobs" className='bg-mine-shaft-900 w-[22rem] flex flex-col gap-6 rounded-xl p-5 hover:shadow-[0_0_5px_1px_yellow] !shadow-bright-sun-400 mb-5'>
       <div className='flex justify-between '>
         <div className='flex gap-2 items-center'>
           <div className='p-2 bg-mine-shaft-800 rounded-md'>
@@ -12,7 +13,7 @@ const JobCard = (props:any) => {
           </div>
           <div>
             <div className='font-semibold'>{props.jobTitle}</div>
-            <div className='text-xs text-mine-shaft-300 '>{props.company}&#x2022; {props.applicants}</div>
+            <div className='text-xs text-mine-shaft-300 '>{props.company} &#x2022; {props.applicants} applicants</div>
           </div>
         </div>
         <IconBookmark className='text-mine-shaft-300 cursor-pointer' stroke={1.5}/>
@@ -30,7 +31,7 @@ const JobCard = (props:any) => {
           <IconClockHour3 stroke={1.5} className='h-5 w-5' /> {props.postedDaysAgo} days ago
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 
