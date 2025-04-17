@@ -23,7 +23,7 @@ const DreamJob = () => {
       <div className='w-[55%] flex items-center justify-center'>
         <div className='w-[35rem] '>
             <img src="/Boy.png" alt="" />
-                <div className="absolute right-[160px] w-fit top-[45%] border-bright-sun-400 border rounded-lg p-2 backdrop-blur-md">
+                <div className="absolute right-[160px] w-fit top-[12%] border-bright-sun-400 border rounded-lg p-2 backdrop-blur-md">
                     <div className="text-center mb-1 text-sm text-mine-shaft-100">10k+ got job</div>
                     <Avatar.Group>
                         <Avatar src="avatar.png"/>
@@ -32,7 +32,7 @@ const DreamJob = () => {
                         <Avatar>+9k</Avatar>
                     </Avatar.Group>
                 </div>
-            <div className="absolute left-[750px] w-fit top-[35%] border-bright-sun-400 border rounded-lg p-2 backdrop-blur-md gap-3 flex flex-col ">
+            <div className="absolute left-[750px] w-fit top-[10%] border-bright-sun-400 border rounded-lg p-2 backdrop-blur-md gap-3 flex flex-col ">
                <div className='flex gap-2 items-center'>
                    <div className='w-12 h-10 p-1 bg-mine-shaft-900 rounded-lg'>
                         <img src="/Icons/Google.png" alt=""  />
