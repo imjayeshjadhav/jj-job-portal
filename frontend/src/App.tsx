@@ -20,6 +20,7 @@ import PostedJobPage from './Pages/PostedJobPage';
 import JobHistoryPage from './Pages/JobHistoryPage';
 import LoginPage from './Pages/LoginPage';
 import SignUpPage from './Pages/SignUpPage';
+import ProfilePage from './Pages/ProfilePage';
 
 function App() {
   const theme = createTheme({
@@ -54,6 +55,7 @@ function App() {
           <Route path='/sign-up' element={<SignUpPage/>} />
           <Route path='/login' element={<SignUpPage/>} />
           <Route path='/apply-job' element={<ApplyJobsPage/> } />
+          <Route path='/profile' element={<ProfilePage/> } />
           <Route path='*' element={<HomePage/>} />
         </Routes>
         <Footer/>
